@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+  --btn-bg: #FF4820;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body-bg{
+
+  background:-moz-radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, #002853 0%, #040C18 100%);
+}
+
+.gradient-text{
+  background-color: var(--color-subtext);
+    background-image:var(--gradient-text);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+}
+
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+section{
+  margin: 2rem 6rem;
+}
+@media only screen and (max-width: 1100px){
+  section{
+    margin: 2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  section{
+    margin: 2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  section{
+    margin: 1rem 0rem;
+  }
+}

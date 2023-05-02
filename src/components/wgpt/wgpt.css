@@ -1,0 +1,119 @@
+.gpt3__wgpt-container{
+    padding: 2rem 4rem;
+     /* ff 3.6+ */
+     background:-moz-radial-gradient(circle at 0% 0%, rgba(0, 89, 187, 1) 0%, rgba(15, 66, 121, 1) 100%);
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-radial-gradient(circle at 0% 0%, rgba(0, 89, 187, 1) 0%, rgba(15, 66, 121, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-radial-gradient(circle at 0% 0%, rgba(0, 89, 187, 1) 0%, rgba(15, 66, 121, 1) 100%);
+ 
+     /* ie 10+ */
+     background:-ms-radial-gradient(circle at 0% 0%, rgba(0, 89, 187, 1) 0%, rgba(15, 66, 121, 1) 100%);
+ 
+     /* global 92%+ browsers support */
+     background:radial-gradient(circle at 0% 0%, rgba(0, 89, 187, 1) 0%, rgba(15, 66, 121, 1) 100%);
+
+}
+
+
+
+.gpt3__wgpt-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.gpt3__wgpt-heading h1{
+    font-size: 34px;
+    margin: 2rem;
+    width: 50%
+}
+
+.gpt3__wgpt-heading a{
+    color: var(--color-subtext);
+    margin: 2rem;
+    font-size: 15px;
+
+}
+
+.gpt3__wgpt-content1 .feature-container{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.gpt3__wgpt-content1 .feature-contents {
+    width: 60%
+}
+
+/* features container */
+
+.gpt3__wgpt-features-container{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gpt3__wgpt-features-container .feature-container{
+    width: 30%;
+}
+
+@media only screen and (max-width: 905px) {
+    .gpt3__wgpt-container{
+        padding: 1rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .gpt3__wgpt-container{
+        padding: 1rem 1rem;
+    }
+    .gpt3__wgpt-features-container{
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .gpt3__wgpt-features-container .feature-container{
+        width: 100%;
+
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .gpt3__wgpt-content1 .feature-container{
+        margin: 2rem;
+        display: block;
+        justify-content: space-between;
+    }
+    .gpt3__wgpt-content1 .feature-contents {
+        width: 100%
+    }
+
+    .gpt3__wgpt-heading{
+        display: block;    
+    }
+    .gpt3__wgpt-heading h1{
+        width: 80%;
+    }
+
+
+
+    
+
+}
+
+@media only screen and (max-width: 450px) {
+    .gpt3__wgpt-content1 .feature-container{
+        margin: 2rem;
+    }
+    .gpt3__wgpt-heading h1{
+        width: 90%;
+    }
+
+}

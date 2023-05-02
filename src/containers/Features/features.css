@@ -1,0 +1,17 @@
+.feature-line{
+    background:var(--gradient-bar);
+    width: 40px;
+    height: 4px;
+    margin-bottom: 4px;
+}
+.feature-container{
+ 
+    line-height: 1.6;
+    
+}
+.feature-heading{
+    color: #fff;
+}
+.feature-content{
+    color: var(--color-text)
+}

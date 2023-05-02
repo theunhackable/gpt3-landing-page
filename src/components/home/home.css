@@ -1,0 +1,150 @@
+.gpt3__home-img img{
+    width: 550px;
+}
+div.gpt3__home-img{
+    text-align: center;
+}
+.gpt3__home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* header */
+
+.gpt3__home-header h1{
+    font-size: 62px;
+    margin: 2rem 0;
+
+}
+.gpt3__home-header p{
+    margin: 1rem 0rem;
+    color: var(--color-text);
+    font-size: 20px;
+    line-height: 1.6;
+
+}
+
+/* input container */
+.gpt3__home-input-container{
+    margin: 2rem 0;
+}
+.gpt3__home-input-container input{
+    width: 60%;
+    padding: 1rem;
+    font-size: 20px;
+    border: none;
+    background-color: var(--color-blog);
+    color: var(--color-text);
+    line-height: 1.6;
+
+}
+.gpt3__home-input-container button{
+    padding: 1rem;
+    border: none;
+    font-size: 20px;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    background-color: var(--btn-bg);
+    cursor: pointer;
+
+}
+.gpt3__home-input-container button:hover{
+    background-color: var(--color-subtext);
+}
+
+/* profiles */
+.gpt3__home-people-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.gtp3__home-header-profiles-img{
+    width: 100px;
+    margin-right: 1rem;
+}
+.gpt3__home-people-container p{
+    color: white;
+    font-size: 15px;
+}
+
+/* companies */
+.gpt3__home-companies{
+    margin:  2rem auto;
+    text-align: center;
+    padding: 1rem;
+
+}
+.gpt3__home-companies img{
+    width: 100%;
+
+}
+
+
+/* hight adjustment */
+
+@media only screen and (max-width: 1100px) {
+  
+    .gpt3__home-header h1{
+        font-size: 32px;
+    }
+    .gpt3__home-header p{
+        font-size: 16px;
+    }
+    .gpt3__home-img img{
+        width: 450px;
+    }
+    .gpt3__home-input-container input{
+        font-size: 16px;
+
+        padding: 0.5rem;
+    }
+    .gpt3__home-input-container button{
+        padding: 0.5rem;
+        font-size: 16px;
+
+    }
+
+    .gpt3__home-people-container p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 905px) {
+    .gpt3__home-img img{
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 725px) {
+    .gpt3__home-img img{
+        display: none;
+    }
+    .gpt3__home-header h1{
+        font-size: 38px;
+
+    }
+    .gpt3__home-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .gpt3__home-img{
+        display: none;
+    }
+    .gpt3__home-header h1{
+        font-size: 32px;
+
+    }
+
+
+    .gpt3__home-container{
+        margin: 1rem;
+    }
+
+}

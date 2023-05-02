@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-
+import '../src/components/index.css';
+import { NavBar, Home, Library, OpenAI, WGPT, CaseStudy, Footer } from './components';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+		<header>
+			<NavBar/>
+		</header>
+		<main>
+			<Home/>
+			<WGPT/>
+			<OpenAI/>
+			<Library/>
+			<CaseStudy/>
+		</main>
+		<footer>
+			<Footer/>
+		</footer>
+    </>
   );
 }
 
