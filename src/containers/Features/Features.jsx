@@ -8,6 +8,7 @@ function Features(props) {
           <div className="feature-line"></div>
           <h1>{props.heading}</h1>
         </div>
+        
         <div className="feature-contents">
           <p className="feature-content">{props.content}</p>
         </div>

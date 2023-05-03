@@ -78,6 +78,7 @@ div.gpt3__home-img{
 }
 .gpt3__home-companies img{
     width: 100%;
+    max-width: 700px;
 
 }
 
