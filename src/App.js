@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import '../src/components/index.css';
-import { NavBar, Home, Library, OpenAI, WGPT, CaseStudy, Footer } from './components';
+import { NavBar, Home, Features, OpenAI, WGPT, CaseStudy, CTA, Blog, Footer } from './components';
 function App() {
   return (
     <>
@@ -12,8 +12,9 @@ function App() {
 			<Home/>
 			<WGPT/>
 			<OpenAI/>
-			<Library/>
-			<CaseStudy/>
+			<Features/>
+			<CTA/>
+			<Blog/>
 		</main>
 		<footer>
 			<Footer/>

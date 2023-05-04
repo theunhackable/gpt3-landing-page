@@ -1,0 +1,62 @@
+.gpt3__content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gpt3__library-img-wrapper{
+    text-align: center;
+}
+.gpt3__library-img-wrapper img{
+    max-width: 450px;
+   
+}
+.gpt3__library-img-wrapper{
+    margin-right: 2rem;
+}
+.gpt3__library-heading-wrapper *{
+    margin-bottom: 2rem; 
+}
+.gpt3__library-heading-wrapper a{
+    color: var(--a-text);
+    display: block;
+}
+.gpt3__library-heading-wrapper h1{
+    font-size: 32px;
+}
+
+.gpt3__library-heading-wrapper p{
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 905px) {
+    .gpt3__library-img-wrapper img{
+        max-width: 350px;
+       
+    }
+}
+@media screen and (max-width: 725px) {
+    .gpt3__content-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .gpt3__library-heading-wrapper a{
+        
+        margin: 2rem 0;
+    }
+
+    .gpt3__library-heading-wrapper a{
+        
+        margin: 2rem 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gpt3__content-wrapper{
+        margin: 1rem;
+    }
+    .gpt3__library-img-wrapper img{
+        width: 90%;
+       
+    }
+}

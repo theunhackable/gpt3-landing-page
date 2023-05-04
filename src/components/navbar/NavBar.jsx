@@ -23,12 +23,12 @@ const sections = [
   
     },
     {
-      name:'Case Studies',
-      id: 'CaseStudy',
+      name:'Blog',
+      id: 'Blog',
       class: ''
     }, 
     { 
-      name:'Library',
+      name:'Contact Us',
       id: 'Footer',
       class: ''
     },
@@ -37,7 +37,7 @@ const sections = [
 const Sections = () => {
   return (
         sections.map((section, ind) => {
-          return <div id={ind} key={ind} className={section.class}>{section.name}</div>
+          return <a className='gpt3__navbar-ham-links' href={'#' + section.id}><div id={ind} key={ind} className={section.class}>{section.name}</div></a>
         })
   )
 }

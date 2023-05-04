@@ -61,7 +61,7 @@
 @media only screen and (max-width:450px) {
 
     .gpt3__openai-container{
-        padding: 2rem;
+        padding: 0 1rem;
     }
     
 }

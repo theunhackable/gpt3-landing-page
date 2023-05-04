@@ -1,5 +1,11 @@
-.gpt3__navbar-ham-content-wrapper button,
+/* nav link */
+a.gpt3__navbar-ham-links{
+    color: white;
+    text-decoration: none;
+
+}
 /* nav buttons */
+.gpt3__navbar-ham-content-wrapper button,
 .gpt3__navbar-content-wrapper button{
     display: block;
     padding: 1rem;
@@ -52,6 +58,13 @@
     display: none;
 }
 
+.gpt3__navbar-ham a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
 @media only screen and (max-width: 905px) {
     .gpt3__navbar{
         justify-content: space-between;
@@ -68,7 +81,7 @@
     .gpt3__navbar-ham{
         display: block;
         position: absolute;
-        background-color: #ffffffe8;
+        background-color: #ffffff;
         width: 40%;
         padding: 2rem;
         right: 0;

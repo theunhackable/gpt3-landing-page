@@ -1,0 +1,65 @@
+.gpt3__cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:var(--gradient-bar);
+    padding: 2rem;
+    margin: 6rem;
+    border-radius: 10px;
+}
+.gpt3__cta-text-wrapper *{
+    margin: 1rem;
+}
+.gpt3__cta-text-wrapper a{
+    color: black;
+}
+.gpt3__cta-button-wrapper button{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    /* font-size: 15px; */
+}
+.gpt3__cta-button-wrapper button:hover{
+    background-color: #111;
+}
+
+@media screen and (max-width: 1260px) {
+    
+    .gpt3__cta-container{
+        flex-direction: column;
+    }
+    .gpt3__cta-button-wrapper{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .gpt3__cta-container{
+        margin: 6rem 2rem;
+        
+    }
+
+    .gpt3__cta-text-wrapper *{
+        margin: 0.5rem 0;
+    }
+    .gpt3__cta-button-wrapper{
+        margin-top: 1rem;
+    }
+
+}
+@media screen and (max-width: 725px) {
+    .gpt3__cta-text-wrapper h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gpt3__cta-text-wrapper h1{
+        font-size: 25px;
+    }
+    .gpt3__cta-container{
+        margin: 1rem;
+    }
+}
+   

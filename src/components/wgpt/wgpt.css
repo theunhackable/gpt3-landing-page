@@ -110,10 +110,27 @@
 
 @media only screen and (max-width: 450px) {
     .gpt3__wgpt-content1 .feature-container{
-        margin: 2rem;
+        margin: 1rem;
     }
     .gpt3__wgpt-heading h1{
         width: 90%;
     }
+    .gpt3__wgpt-container{
+        padding: 1rem 0rem;
+    }
+    .gpt3__wgpt-content1 .feature-container{
+        margin: 1rem;
+    }
+    
+    .gpt3__wgpt-heading h1{
+        margin: 1rem;
+    }
 
+    .gpt3__wgpt-heading a{
+        margin: 1rem;    
+    }
+    .gpt3__wgpt-features-container{
+        margin:  1rem;
+    }
+    
 }
