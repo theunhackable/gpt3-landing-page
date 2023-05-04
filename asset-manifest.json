@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gpt3-landing-page/static/css/main.947469f7.css",
+    "main.css": "/gpt3-landing-page/static/css/main.d2804292.css",
     "main.js": "/gpt3-landing-page/static/js/main.08076270.js",
     "static/js/787.4a1b6eeb.chunk.js": "/gpt3-landing-page/static/js/787.4a1b6eeb.chunk.js",
     "static/media/Feature Image.svg": "/gpt3-landing-page/static/media/Feature Image.e23f36d8d9318657338c08f4f85e8d55.svg",
@@ -15,12 +15,12 @@
     "index.html": "/gpt3-landing-page/index.html",
     "static/media/close-hamburger.svg": "/gpt3-landing-page/static/media/close-hamburger.8e085e837a2e9356dd4fbc615ca83217.svg",
     "static/media/open-hamburger.svg": "/gpt3-landing-page/static/media/open-hamburger.55e183987260728d07c3adfe3d37ebe1.svg",
-    "main.947469f7.css.map": "/gpt3-landing-page/static/css/main.947469f7.css.map",
+    "main.d2804292.css.map": "/gpt3-landing-page/static/css/main.d2804292.css.map",
     "main.08076270.js.map": "/gpt3-landing-page/static/js/main.08076270.js.map",
     "787.4a1b6eeb.chunk.js.map": "/gpt3-landing-page/static/js/787.4a1b6eeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.947469f7.css",
+    "static/css/main.d2804292.css",
     "static/js/main.08076270.js"
   ]
 }
