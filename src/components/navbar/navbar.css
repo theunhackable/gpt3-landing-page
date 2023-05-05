@@ -30,6 +30,7 @@ a.gpt3__navbar-ham-links{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     margin: 2rem 6rem;
 
 }
@@ -55,8 +56,8 @@ a.gpt3__navbar-ham-links{
 }
 /* hamburger */
 div.gpt3__navbar-ham{
-    backdrop-filter: blur(6px);
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+    backdrop-filter: blur(4px);
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7));
 }
 .hamburger,
 .gpt3__navbar-ham{
@@ -69,7 +70,12 @@ div.gpt3__navbar-ham{
     font-weight: bold;
 
 }
-
+@media screen and (max-width: 1100px) {
+    .gpt3__navbar{
+        margin: 2rem 2rem;
+    }
+    
+}
 @media only screen and (max-width: 905px) {
     .gpt3__navbar{
         justify-content: space-between;
