@@ -34,6 +34,7 @@ a.gpt3__navbar-ham-links{
 
 }
 /* nav sections */
+
 .gpt3__navbar-sections-wrapper{
     display: flex;
     color: #fff;
@@ -53,6 +54,10 @@ a.gpt3__navbar-ham-links{
     align-items: center;
 }
 /* hamburger */
+div.gpt3__navbar-ham{
+    backdrop-filter: blur(6px);
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+}
 .hamburger,
 .gpt3__navbar-ham{
     display: none;
@@ -81,12 +86,11 @@ a.gpt3__navbar-ham-links{
     .gpt3__navbar-ham{
         display: block;
         position: absolute;
-        background-color: #ffffff;
         width: 40%;
         padding: 2rem;
         right: 0;
         border-radius: 0px 0px 0px 10px;
-        animation: scale-in-hor-right 0.15s linear;
+        /* animation: scale-in-hor-right 0.15s linear; */
     }
 
     .gpt3__navbar-ham-content-wrapper button{
@@ -119,7 +123,7 @@ a.gpt3__navbar-ham-links{
         display: none;
     }
     .gpt3__navbar-ham{
-        width: 50%;
+        width: 70%;
     }
     .gpt3__navbar-ham-content-wrapper button{
         display: flex;
