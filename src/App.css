@@ -41,6 +41,7 @@ header{
   position: fixed;
   display: block;
   width: 100%;
+  max-width: 1440px;
   backdrop-filter: blur(15px);
   background: #2460a02d;
   border-bottom: 0.5px solid #2460a086;

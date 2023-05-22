@@ -72,7 +72,7 @@ div.gpt3__navbar-ham{
 }
 @media screen and (max-width: 1100px) {
     .gpt3__navbar{
-        margin: 2rem 2rem;
+        margin: 0.5rem 2rem;
     }
     
 }
