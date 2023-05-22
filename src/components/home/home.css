@@ -10,7 +10,11 @@ div.gpt3__home-img{
     align-items: center;
 
 }
+/* section */
+#Home{
 
+    margin-top: 5rem;
+}
 /* header */
 
 .gpt3__home-header h1{

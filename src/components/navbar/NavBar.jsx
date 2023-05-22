@@ -8,7 +8,7 @@ import closeHamburger from '../../assets/imgs/close-hamburger.svg'
 const sections = [
     {
       name:'Home',
-      id: "home",
+      id: "Home",
       class: ''
     },
     {
